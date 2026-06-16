@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owlmind · Book Analysis</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="logo-link">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="46" stroke="#e8dcc8" stroke-width="3" fill="none" />
+                        <circle cx="50" cy="50" r="42" stroke="#e8dcc8" stroke-width="1" fill="none" opacity="0.2" />
+                        <g transform="translate(50, 52) scale(0.7)" fill="#0a0a0a">
+                            <ellipse cx="0" cy="6" rx="22" ry="24" fill="#0a0a0a" />
+                            <circle cx="0" cy="-14" r="18" fill="#0a0a0a" />
+                            <polygon points="-14,-28 -8,-18 -18,-18" fill="#0a0a0a" />
+                            <polygon points="14,-28 8,-18 18,-18" fill="#0a0a0a" />
+                            <circle cx="-8" cy="-16" r="6" fill="#1f1226" stroke="#6b4a7a" stroke-width="0.8" />
+                            <circle cx="8" cy="-16" r="6" fill="#1f1226" stroke="#6b4a7a" stroke-width="0.8" />
+                            <circle cx="-8" cy="-16" r="2.5" fill="#b8a5c9" />
+                            <circle cx="8" cy="-16" r="2.5" fill="#b8a5c9" />
+                            <polygon points="-4,-11 4,-11 0,-6" fill="#b8a5c9" opacity="0.6" />
+                            <ellipse cx="-20" cy="6" rx="8" ry="16" fill="#0a0a0a" />
+                            <ellipse cx="20" cy="6" rx="8" ry="16" fill="#0a0a0a" />
+                            <rect x="-8" y="28" width="4" height="6" rx="2" fill="#0a0a0a" />
+                            <rect x="4" y="28" width="4" height="6" rx="2" fill="#0a0a0a" />
+                        </g>
+                    </svg>
+                </span>
+                <span class="logo-text">
+                    Owlmind
+                    <span class="slogan">The Owl's Study · Meditations</span>
+                </span>
+            </a>
+
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#" class="btn-nav">Subscribe</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main class="main-content">
+        <div class="container">
+
+            <h1 class="page-title">Owlmind · Book Reviews &amp; Meditations</h1>
+            <div class="page-subtitle">
+                Analyzing books · Interpreting ideas · Crossing cultures &amp; languages
+                <span style="display:inline-block; margin-left:12px; font-family: var(--font-arabic); direction:rtl;">
+                    — قراءة الكتب · تحليل الأفكار
+                </span>
+            </div>
+
+            <div class="blog-grid" id="articles">
+
+                <!-- ===== POST 1 ===== -->
+                <article class="post-card" id="post-1">
+                    <div class="post-meta">
+                        <span class="date"><i class="far fa-calendar-alt"></i> 2026-06-16</span>
+                        <span class="category"><i class="fas fa-tag"></i> Literature · Philosophy</span>
+                        <span style="color:var(--text-muted);">⏱ 12 min read</span>
+                    </div>
+                    <h2 class="post-title">
+                        <a href="#post-1">Candlelight in the Dark: Rereading The Brothers Karamazov</a>
+                    </h2>
+                    <div class="post-excerpt">
+                        <p>Dostoevsky's final novel stands like a cathedral burning in a blizzard. Each reread reveals new cracks and shafts of light…</p>
+                        <p class="arabic" style="margin-top:8px;">
+                            «في رواية «الإخوة كارامازوف» لدوستويفسكي، نجد أنفسنا أمام مرآة مظلمة تعكس أعمق أسئلة الوجود الإنساني.»
+                        </p>
+                    </div>
+                    <div class="post-footer">
+                        <a href="#post-1" class="read-more toggle-article" data-target="article-1">
+                            <span>Read full</span> <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-tags">
+                            <span>#Dostoevsky</span>
+                            <span>#Existentialism</span>
+                            <span>#RussianLit</span>
+                        </div>
+                    </div>
+                    <div class="full-article" id="article-1">
+                        <div class="article-body">
+                            <p><strong>Candlelight in the Dark: Rereading The Brothers Karamazov</strong></p>
+                            <p>Dostoevsky's final novel stands like a cathedral burning in a blizzard. Each reread reveals new cracks and shafts of light. Alyosha's purity, Ivan's rationality, Mitya's passion — these three brothers are the poles of the human spectrum, while their father is raw, untamed desire itself.</p>
+                            <p>The "Grand Inquisitor" chapter is perhaps the most fierce philosophical confrontation in literature. Ivan's questioning of Christ still echoes in our ears: if freedom means suffering, do humans truly want to be free?</p>
+                            <p class="arabic" style="font-family:var(--font-arabic); direction:rtl; font-size:1.1rem; line-height:2.2; color:#d4c9b8;">
+                                «في فصل «المفتش الكبير»، نجد دوستويفسكي يطرح سؤالًا لا يزال يتردد في أذهاننا حتى اليوم: إذا كانت الحرية تعني المعاناة، فهل يرغب البشر حقًا في أن يكونوا أحرارًا؟»
+                            </p>
+                            <p>And Alyosha's response is silence — he kisses Ivan. That kiss is not an answer, but a deeper acknowledgment: beyond reason, there is something worth entrusting our lives to.</p>
+                            <blockquote>"Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him."</blockquote>
+                            <p>This novel is not meant to be read — it is meant to be <em>lived</em>. Every year, every shift in mood, it reveals a different face. It is a mirror that reflects not the text, but ourselves.</p>
+                            <div class="arabic-newspaper">
+                                <p>في كل مرة نقرأ رواية «الإخوة كارامازوف»، نكتشف فيها طبقات جديدة من المعنى. إنها ليست مجرد قصة عن عائلة روسية، بل هي رحلة إلى أعماق النفس البشرية.</p>
+                                <p>تتجلى عبقرية دوستويفسكي في قدرته على جعل الفلسفة دراما، والفكرة شخصية، واللاهوت صراعًا يوميًا في قلب كل إنسان.</p>
+                            </div>
+                        </div>
+                        <button class="close-article toggle-article" data-target="article-1">
+                            <i class="fas fa-times"></i> Close
+                        </button>
+                    </div>
+                </article>
+
+                <!-- ===== POST 2 ===== -->
+                <article class="post-card" id="post-2">
+                    <div class="post-meta">
+                        <span class="date"><i class="far fa-calendar-alt"></i> 2026-06-12</span>
+                        <span class="category"><i class="fas fa-tag"></i> Sci-Fi · Politics</span>
+                        <span style="color:var(--text-muted);">⏱ 8 min read</span>
+                    </div>
+                    <h2 class="post-title">
+                        <a href="#post-2">1984 and the Present: The Ghost of Surveillance Capitalism</a>
+                    </h2>
+                    <div class="post-excerpt">
+                        <p>Orwell's "Big Brother" was once a symbol of totalitarianism. But today, has it quietly become the phone in our pocket?</p>
+                        <p class="arabic" style="margin-top:8px;">
+                            «في رواية «1984»، رسم أورويل صورة لمجتمع تسوده المراقبة الشاملة. لكن اليوم، هل أصبح «الأخ الأكبر» مجرد هاتف في جيوبنا؟»
+                        </p>
+                    </div>
+                    <div class="post-footer">
+                        <a href="#post-2" class="read-more toggle-article" data-target="article-2">
+                            <span>Read full</span> <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-tags">
+                            <span>#Orwell</span>
+                            <span>#Surveillance</span>
+                            <span>#TechCritique</span>
+                        </div>
+                    </div>
+                    <div class="full-article" id="article-2">
+                        <div class="article-body">
+                            <p><strong>1984 and the Present: The Ghost of Surveillance Capitalism</strong></p>
+                            <p>Orwell painted a suffocating world in 1949: telescreens everywhere, thought police, and rewritten history. At the time, it seemed like an exaggeration of Stalinism. Yet seventy years later, we find ourselves living in a far more subtle surveillance system — not enforced by the state, but driven by capital.</p>
+                            <p>"Big Brother" is no longer a dictator, but an algorithm. It doesn't control us through fear; it uses convenience, entertainment, and social validation to make us willingly surrender our data. We are no longer Winston Smith — we are data miners, and every search, every like, every chat becomes raw material for training AI models.</p>
+                            <blockquote>"Who controls the past controls the future. Who controls the present controls the past."</blockquote>
+                            <p>But Orwell also left a crack: Winston's final "betrayal" is not failure, but a brutal victory — he chose love, even if that love was fabricated. In the age of data supremacy, perhaps we need a similar "rebellion": to relearn what is truly our own, what cannot be quantified.</p>
+                            <div class="arabic-newspaper">
+                                <p>في عصر البيانات الضخمة، أصبحت المراقبة أكثر دقة وأقل وضوحًا. لم تعد الكاميرات في كل زاوية، بل أصبحت الخوارزميات في كل تطبيق.</p>
+                                <p>لكن السؤال الذي يطرحه أورويل لا يزال قائمًا: هل يمكن للفرد أن يحتفظ بإنسانيته في مواجهة آلة تريد تحويل كل شيء إلى معلومات؟</p>
+                            </div>
+                        </div>
+                        <button class="close-article toggle-article" data-target="article-2">
+                            <i class="fas fa-times"></i> Close
+                        </button>
+                    </div>
+                </article>
+
+                <!-- ===== POST 3 ===== -->
+                <article class="post-card" id="post-3">
+                    <div class="post-meta">
+                        <span class="date"><i class="far fa-calendar-alt"></i> 2026-06-08</span>
+                        <span class="category"><i class="fas fa-tag"></i> Poetry · Mysticism</span>
+                        <span style="color:var(--text-muted);">⏱ 6 min read</span>
+                    </div>
+                    <h2 class="post-title">
+                        <a href="#post-3">Between Darkness and Light: Rilke's Duino Elegies</a>
+                    </h2>
+                    <div class="post-excerpt">
+                        <p>Rilke's elegies are addressed to angels — but they never answer. Their very existence is a question: why do we long so desperately to be seen?</p>
+                        <p class="arabic" style="margin-top:8px;">
+                            «مرثيات دويانو لريلكه هي رسائل إلى الملائكة، لكن الملائكة لا ترد. وجودها نفسه هو سؤال: لماذا نتوق بشدة لأن يرانا أحد؟»
+                        </p>
+                    </div>
+                    <div class="post-footer">
+                        <a href="#post-3" class="read-more toggle-article" data-target="article-3">
+                            <span>Read full</span> <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <div class="post-tags">
+                            <span>#Rilke</span>
+                            <span>#ModernPoetry</span>
+                            <span>#Mysticism</span>
+                        </div>
+                    </div>
+                    <div class="full-article" id="article-3">
+                        <div class="article-body">
+                            <p><strong>Between Darkness and Light: Rilke's Duino Elegies</strong></p>
+                            <p>Rilke wrote the first elegy in the wind of Duino Castle in 1912. Europe was about to plunge into war, yet the poet was speaking to angels. These angels are not religious beings — they are the embodiment of absolute beauty and terror. We long to approach them, yet cannot bear their full radiance.</p>
+                            <p>"Every angel is terrible," Rilke wrote. This "terrible" is not a threat, but a revelation of our limitation: we can only stand at the threshold, never fully entering darkness nor fully merging into light.</p>
+                            <blockquote>"For beauty is nothing but the beginning of terror which we are barely able to endure."</blockquote>
+                            <p>The Duino Elegies are a long night journey. They teach us this: instead of fleeing darkness, learn to see within it. The things we think we've lost — love, faith, youth — become part of our inner space, making our hearts more spacious.</p>
+                            <div class="arabic-newspaper">
+                                <p>مرثيات دويانو هي رحلة في الليل الطويل. إنها تعلمنا أن الهروب من الظلام ليس حلاً، بل أن نتعلم كيف نرى في الظلام.</p>
+                                <p>تلك الأشياء التي نظن أننا فقدناها — الحب، الإيمان، الشباب — تصبح جزءًا من فضاءنا الداخلي، وتجعل قلوبنا أكثر اتساعًا.</p>
+                            </div>
+                        </div>
+                        <button class="close-article toggle-article" data-target="article-3">
+                            <i class="fas fa-times"></i> Close
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- ===== SIDEBAR ===== -->
+            <aside class="sidebar" id="about">
+                <h3><i class="fas fa-owl" style="color:var(--accent);"></i> About Owlmind</h3>
+                <p>Here lie meditations on books, cross-cultural dialogues, and thoughts that flicker in the late hours. Whether you read in English, Arabic, or any other tongue — may these words be a lamp on your desk.</p>
+                <p style="margin-top:8px; font-family:var(--font-arabic); direction:rtl; color:#d4c9b8;">
+                    هنا نضع تأملات حول الكتب، وحوارات بين الثقافات، وأفكارًا تتألق في الليل. مهما كانت لغتك — إنجليزية أو عربية — نرجو أن تكون هذه الكلمات مصباحًا على مكتبك.
+                </p>
+                <div class="social-mini">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Goodreads"><i class="fab fa-goodreads-g"></i></a>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <a href="#" class="logo-link" style="gap:10px;">
+                    <span class="logo-icon" style="width:40px; height:40px;">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="44" stroke="#e8dcc8" stroke-width="2.5" fill="none" />
+                            <g transform="translate(50, 52) scale(0.6)" fill="#0a0a0a">
+                                <ellipse cx="0" cy="6" rx="20" ry="22" fill="#0a0a0a" />
+                                <circle cx="0" cy="-14" r="16" fill="#0a0a0a" />
+                                <polygon points="-12,-26 -6,-16 -16,-16" fill="#0a0a0a" />
+                                <polygon points="12,-26 6,-16 16,-16" fill="#0a0a0a" />
+                                <circle cx="-7" cy="-15" r="5" fill="#1f1226" stroke="#6b4a7a" stroke-width="0.6" />
+                                <circle cx="7" cy="-15" r="5" fill="#1f1226" stroke="#6b4a7a" stroke-width="0.6" />
+                                <circle cx="-7" cy="-15" r="2" fill="#b8a5c9" />
+                                <circle cx="7" cy="-15" r="2" fill="#b8a5c9" />
+                                <polygon points="-3,-10 3,-10 0,-5" fill="#b8a5c9" opacity="0.5" />
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="logo-text" style="font-size:1rem;">
+                        Owlmind
+                        <span class="slogan">The Owl's Study · Meditations</span>
+                    </span>
+                </a>
+            </div>
+
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Goodreads"><i class="fab fa-goodreads-g"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="footer-copy">
+                &copy; 2026 Owlmind · By the book, by the thought
+                <span style="display:inline-block; margin-left:12px; font-family:var(--font-arabic); direction:rtl;">
+                    — بالكتاب نستنير، وبالفكر نسير
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                      </html>
